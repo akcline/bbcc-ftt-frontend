@@ -53,7 +53,7 @@ async function loadCow() {
         <br>
         <img class="pedigree-img" src="${localPedigreePath}" alt="Pedigree chart for ${cow.name}" />
 
-        <label class="info-blob-headers">MIG (Meat Image Japan) Score</label>
+        <label class="info-blob-headers">MIJ (Meat Image Japan) Score</label>
         <div class="info-blob-p">
             <div class="wagyu-slider">
                 <div class="wagyu-track">
