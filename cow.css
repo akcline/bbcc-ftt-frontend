@@ -1,0 +1,183 @@
+    :root {
+      --black: #262322;
+      --gold: #c9a84c;
+      --green: #47682c;
+      --off-white: #f7f0e0;
+      font-family: 'Oswald';
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--black);
+      color: var(--off-white);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      height: 100vh;
+    }
+
+    header {
+      width: 100%;
+      background: var(--gold);
+      color: var(--off-white);
+      text-align: center;
+      padding: .5rem;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+    }
+
+    #header-logo{
+      max-height: 2.5rem;
+    }
+
+    #pasture-to-plate{
+      font-size: 2rem;
+      text-align: center;
+      padding-bottom: 1.5rem;
+    }
+
+    .info-header{
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+
+    .info-blob{
+      color: var(--black);
+      background-color: var(--off-white);
+      border-radius: .7rem;
+      border-style: solid;
+      border-color: var(--gold);
+      margin: .5rem auto;
+      padding: 12px 24px;
+    }
+
+    .info-blob-headers{
+      font-weight: 800;
+      font-size: 1.25rem;
+    }
+
+    .info-blob-p{
+      font-size: 1rem;
+      margin-left: 1.5rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin-top: 1.5rem;
+      padding: 0 24px;
+    }
+
+    .cow-photo {
+      width: 85%;
+      max-height: 450px;
+      object-fit: cover;
+      border-radius: .5rem;
+      margin-bottom: .5rem;
+    }
+
+    .cow-name {
+      font-size: 1.7rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .cow-breed {
+      color: var(--gold);
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 32px;
+    }
+
+
+    .pedigree-img {
+      width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 8px;
+      margin-top: 12px;
+      border: solid;
+      border-color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .wagyu-slider{
+      margin-top: 12px;
+    }
+
+    .wagyu-track{
+      position: relative;
+      background: #e0d5c5;
+      border-radius: 999px;
+      height: 12px;
+      margin-bottom: 8px;
+    }
+
+    .wagyu-fill{
+      height: 100%;
+      background: var(--green);
+      border-radius: 999px;
+      transition: width 1s ease;
+    }
+
+    .wagyu-thumb {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 3px solid var(--off-white);
+      transition: left 1s ease;
+      background-color: var(--gold);
+    }
+
+    .wagyu-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      opacity: 0.6;
+      margin-top: 4px;
+    }
+
+    .wagyu-grade {
+      text-align: center;
+      font-size: 1.25rem;
+      margin-top: 8px;
+      color: var(--tan);
+      font-weight: 700;
+    }
+
+    .error {
+      text-align: center;
+      padding: 80px 24px;
+      font-size: 1.5rem;
+      color: var(--off-white);
+      opacity: 0.5;
+    }
+
+    footer {
+      width: 100%;
+      text-align: left;
+      padding: 32px;
+      margin-top: 48px;
+      background-color: var(--gold);
+    }
+
+    #footer-heading{
+      font-size: 1.5rem;
+      margin-bottom: .5rem;
+    }
+
+    .footer-paragraphs{
+      font-size: 0.9rem;
+      margin-bottom: .7rem;
+    }
+
+    #footer-banner{
+      max-width: 70%;
+    }
